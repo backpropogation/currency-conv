@@ -1,1 +1,1 @@
-export const PATH = "http://192.168.1.72:8000";
+export const PATH = "http://0.0.0.0:8000";
