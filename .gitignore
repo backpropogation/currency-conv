@@ -1,0 +1,11 @@
+/client/build
+/server/staticfiles
+/server/media
+.DS_Store
+.idea
+.vscode
+*.log
+*.pyc
+**/__pycache__/
+server/celerybeat-schedule
+server/celerybeat.pid

@@ -1,0 +1,9 @@
+Django==2.2.1
+psycopg2-binary==2.8.2
+dj-database-url==0.5.0 # for easy db config
+celery==4.3. # for periodic tasks
+django-money==0.15.1 # for currency support
+djangorestframework==3.10.3
+requests==2.22.0 # for getting response from EU central bank
+django-redis==4.10.0 # redis
+django-cors-headers==3.1.0 # headers for frontend

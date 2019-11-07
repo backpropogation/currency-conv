@@ -1,0 +1,20 @@
+.output_string {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding: 0 36px;
+
+  &:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  &__title {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  &__amount {
+    font-family: "Open Sans";
+    text-align: right;
+  }
+}
